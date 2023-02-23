@@ -1,0 +1,42 @@
+ <rdf : RDF xmnls : rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+ xmnls : foaf = "http://xmlns.com/foaf/0.1/"
+ 
+  
+
+<rdf : Description rdf : about="Margot">
+   <foaf:Person></foaf:Person>
+   <foaf:name>Margot</foaf:name>
+   <foaf:age>32</foaf:age>
+   <foaf:size>38</foaf:size>
+   <foaf:pantsize>40</foaf:pantsize>
+   <foaf:job xml:lang='en'>Teacher</foaf:job>
+</rdf: description> 
+
+
+<rdf : Description rdf : about= "husband">
+      <foaf:Person></foaf:Person>
+       <foaf:name>Arthur</foaf:name>
+  
+<rdf : Description rdf : about= "mother">
+      <foaf:Person></foaf:Person>
+      <foaf:mother>Simone</foaf:mother>
+ </rdf: description>  
+
+
+<rdf : Description rdf : about= "children">
+      <foaf:Person></foaf:Person>
+      <rdf: bag>
+         <rdf:li>Simon<:rdf:li> <rdf:li>Marie</rdf:li>
+       </rdf: bag>
+</rdf: description>        
+       
+
+<rdf : Description rdf : about= "colleagues">
+      <foaf:Person></foaf:Person>
+      <rdf: bag>
+         <rdf:li>Alice<:rdf:li> <rdf:li>Pierre</rdf:li>
+       </rdf: bag>
+</rdf: descriptionn>
+
+</rdf: RDF>
+    
