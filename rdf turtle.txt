@@ -1,0 +1,30 @@
+### Turtle start ##
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<#Margot>
+    a foaf:Person ;
+    foaf:name "Margot"^^xsd:str ;
+     foaf: job "Teacher"@en^^xsd:str .
+    foaf:shoesize 38^^xsd:int
+    foaf:pantsize 40^^xsd:int
+
+<#husband>
+    a foaf:Person ;
+    foaf:name "Arthur"^^xsd:str ;
+        
+<#children>
+    a foaf:Person ;
+     [a rdf:Bag : rdf:li <#Simon>, <#Marie>]
+    
+<#Mother>
+    a foaf:Person ;
+    foaf:name "Simone"^^xsd:str
+
+<#Colleagues>
+    a foaf:Person ;
+   [a rdf:Bag ; rdf:li "Alice", "Pierre"].
+    
+    ### Turtle End ###
